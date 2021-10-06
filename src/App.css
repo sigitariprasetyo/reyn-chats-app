@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Space Grotesk', sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ce-chat-title-container{
+  padding: 11px 0px !important;
+  background-color: #135df1 !important;
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ce-chats-container, 
+.ce-settings{
+  background-color: #0f1624 !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ce-chat-card.ce-active-chat-card {
+  border-radius: 0px !important;
+  background-color: #253350 !important;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ce-input.ce-text-input{
+  background-color: rgb(205, 213, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ce-chat-card.false{
+  border-radius: 0px !important;
+  background-color: #343d53 !important;
+  color: white;
+}
+
+.ce-chat-form-container, .ce-chat-title{
+  background-color: #135df1 !important;
+  color: white;
+}
+
+.ce-chat-feed-container{
+  background: #283142 !important;
+}
+
+.ce-message-date-text,
+.ce-their-message-sender{
+  color: white !important;
+}
+
+.ce-message-bubble-row.ce-my-message-bubble-row{
+  padding: 0 10px !important;
+}
+
+.ce-message-bubble.ce-my-message-bubble{
+  border-radius: 15px !important;
+}
+
+.ce-message-timestamp.ce-my-message-timestamp{
+  color: rgb(184, 184, 185) !important;
+}
+
+.ce-settings-container{
+  padding: 5px !important;
+  width: 97% !important;
+}
+
+.ce-section-title-container.ce-person-title-container, 
+.ce-section-title-container.ce-photo-title-container,
+#ce-options-drop-down{
+  border-radius: 0px !important;
+  background-color: #212a3d !important;
+  color: white;
+}
+
+.ce-chat-title-form{
+  margin-bottom: 10px !important;
+}
+
+.ce-person-container{
+  color: white !important;
+}
+
+.ce-primary-button.ce-danger-button{
+  border: none !important;
+  color: #0f1624 !important;
+}
+
+.anticon.anticon-menu,
+.anticon.anticon-setting{
+  margin: -15px 0 0 !important;
 }
